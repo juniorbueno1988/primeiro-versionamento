@@ -1,0 +1,55 @@
+header {
+  background-color: #045694;
+  height: 120px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+.header {
+    padding-right: 10px;
+}
+
+.header-1 {
+    border-bottom: 1px solid white;
+    height: 20px;
+}
+
+.header-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primeira-nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+  gap: 20px;
+}
+
+.primeira-nav a{
+    font-size: 11px;
+}
+
+.segunda-nav {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+}
+
+ion-icon {
+  font-size: 20px;
+  color: white;
+}
